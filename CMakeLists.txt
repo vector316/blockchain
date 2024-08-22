@@ -43,6 +43,7 @@ set( CMAKE_EXPORT_COMPILE_COMMANDS 1 )
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
 
 # Set global compiler warnings
+
 if(MSVC)
     add_compile_options(/W3 /WX)
 else()
